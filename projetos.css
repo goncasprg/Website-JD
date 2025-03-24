@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Para garantir que o header fique sempre em cima */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Mantém o alinhamento no topo */
+    padding-top: 120px; /* Ajusta a margem superior para não sobrepor o header */
+    min-height: 100vh; /* Garante que a seção ocupe toda a altura da tela */
+    margin-top: 60px; /* Garante que o conteúdo não sobreponha o header */
+}
+
+.projeto {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 80px;
+    padding: 30px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.imagem-container {
+    max-width: 50%;
+    text-align: center;
+}
+
+.imagem-container img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.descricao-imagem {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+.texto {
+    padding-left: 20px;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinha o texto no topo */
+}
+
+.texto h2 {
+    color: #116fe9;
+    font-size: 25px;
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+
+.texto p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

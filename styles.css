@@ -1,0 +1,73 @@
+/* styles.css */
+
+:root {
+    --azul: #116fe9;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Faz o body ocupar toda a altura da tela */
+}
+
+.container {
+    width: 400px; /* Largura do formulário */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; /* Bordas mais arredondadas */
+    text-align: center; /* Centraliza os elementos dentro do container */
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+
+input, textarea {
+    width: 80%; /* Largura menor dos campos */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px; /* Bordas arredondadas */
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box; /* Garante que o padding não afete a largura */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea {
+    height: 120px; /* Definindo uma altura fixa para o campo de texto */
+    resize: vertical; /* Permite redimensionar o campo de texto apenas na direção vertical */
+}
+
+button {
+    width: 80%;
+    padding: 12px;
+    background-color: var(--azul);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--azul);
+}
